@@ -1,15 +1,19 @@
+package br.com.alura.bytebank.modelo
+
+import br.com.alura.bytebank.modelo.Funcionario
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,
     salario: Double,
     val senha: Int
-):Funcionario(
+): Funcionario(
     nome,
     cpf,
     salario
 ) {
     override fun toString(): String {
-        return "Funcionario(nome='$nome', cpf='$cpf', salario=$salario)"
+        return "br.com.alura.bytebank.modelo.Funcionario(nome='$nome', cpf='$cpf', salario=$salario)"
     }
 
     fun autentica(senha: Int): Boolean {

@@ -1,3 +1,7 @@
+package br.com.alura.bytebank.modelo
+
+import br.com.alura.bytebank.modelo.FuncionarioAdmin
+
 class Gerente(
     nome: String,
     cpf: String,
@@ -10,7 +14,7 @@ class Gerente(
     senha
 ) {
     override fun toString(): String {
-        return super.toString() + "Gerente(senha=$senha, bonificacao=$bonificacao)"
+        return super.toString() + "br.com.alura.bytebank.modelo.Gerente(senha=$senha, bonificacao=$bonificacao)"
     }
 
     override val bonificacao: Double = salario * 0.2

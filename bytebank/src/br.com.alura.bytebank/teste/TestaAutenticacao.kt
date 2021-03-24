@@ -1,3 +1,6 @@
+import br.com.alura.bytebank.modelo.Gerente
+import br.com.alura.bytebank.modelo.SistemaInterno
+
 fun testaAutenticacao() {
     val gerente = Gerente(
         "Carol",

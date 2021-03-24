@@ -1,3 +1,6 @@
+import br.com.alura.bytebank.modelo.CalculadoraBonificacao
+import br.com.alura.bytebank.modelo.Gerente
+
 fun testaFuncionarios() {
     val contaCarol = testaComportamentosConta()
 
